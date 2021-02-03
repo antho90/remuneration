@@ -137,7 +137,7 @@ table {
 /* RESET CSS */
 
 .u {
-    background-color: #ffb0b0;
+    background-color: #FBDAD1;
 }
 
 h1 {
@@ -155,9 +155,9 @@ p {
 }
 
 .boutton {
-    color: #4A2626;
+    color: #FBDAD1;
     border-radius: 10px;
-    background-color: #FBDAD1;
+    background-color: #4A2626;
     font-size: 1rem;
     border: 0;
     line-height: 2.5;
@@ -166,7 +166,7 @@ p {
 }
 
 .boutton:hover {
-    background-color: #4A2626;
+    background-color: rgb(104, 75, 75);
     color: #ffffff;
 }
 

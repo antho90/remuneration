@@ -195,6 +195,7 @@ div[class^="menu-"] {
 .menu .menu-item a {
     text-decoration: none;
     color: #4A2626;
+    font-family: 'Sen', sans-serif;
 }
 
 .menu .menu-item a:hover {

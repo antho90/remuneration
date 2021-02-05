@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,117 +104,124 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* RESET CSS */
 
 .u {
-    background-color: #FBDAD1;
+	background-color: #fbdad1;
 }
 
 h1 {
-    color: #4A2626;
-    font-family: 'Sen', sans-serif;
+	color: #4a2626;
+	font-family: 'Sen', sans-serif;
 }
 
 .fs-title {
-    font-size: calc(50px + (60 - 50) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(50px + (60 - 50) * ((100vw - 300px) / (1600 - 300)));
 }
 
 p {
-    color: #826C6C;
-    font-family: 'Taviraj', serif;
+	color: #826c6c;
+	font-family: 'Taviraj', serif;
 }
 
 .boutton {
-    color: #FBDAD1;
-    border-radius: 10px;
-    background-color: #4A2626;
-    font-size: 1rem;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    cursor: pointer;
+	color: #fbdad1;
+	border-radius: 10px;
+	background-color: #4a2626;
+	font-size: 1rem;
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	cursor: pointer;
 }
 
 .boutton:hover {
-    background-color: rgb(104, 75, 75);
-    color: #ffffff;
+	background-color: rgb(104, 75, 75);
+	color: #ffffff;
 }
 
 .boutton:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+		inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-div[class^="menu-"] {
-    padding: 20px;
+div[class^='menu-'] {
+	padding: 20px;
 }
 
 .menu {
-    padding: 0;
-    /* width: 1250px; */
-    margin-right: auto;
-    margin-left: auto;
+	padding: 0;
+	/* width: 1250px; */
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .menu .menu-item {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 20px;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 .menu .menu-item a {
-    text-decoration: none;
-    color: #4A2626;
-    font-family: 'Sen', sans-serif;
+	text-decoration: none;
+	color: #4a2626;
+	font-family: 'Sen', sans-serif;
 }
 
 .menu .menu-item a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .mg-top {
-    margin-top: 20%;
+	margin-top: 20%;
 }
 
 .mg-404 {
-    margin-top: 10%;
+	margin-top: 10%;
 }
 
 .mg-foot {
-    margin-left: 25px;
+	margin-left: 25px;
 }
 
 img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
 }

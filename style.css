@@ -146,7 +146,7 @@ h1 {
 }
 
 .fs-title {
-    font-size: calc(95px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(50px + (60 - 50) * ((100vw - 300px) / (1600 - 300)));
 }
 
 p {
@@ -181,7 +181,7 @@ div[class^="menu-"] {
 
 .menu {
     padding: 0;
-    width: 1250px;
+    /* width: 1250px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -212,4 +212,9 @@ div[class^="menu-"] {
 
 .mg-foot {
     margin-left: 25px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

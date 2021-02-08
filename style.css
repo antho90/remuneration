@@ -144,6 +144,10 @@ h1 {
 	color: #4a2626;
 	font-family: 'Sen', sans-serif;
 }
+h3 {
+	color: #4a2626;
+	font-family: 'Sen', sans-serif;
+}
 
 .fs-title {
 	font-size: calc(50px + (60 - 50) * ((100vw - 300px) / (1600 - 300)));
@@ -220,4 +224,8 @@ img {
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
+}
+
+.mg-left {
+	margin-left: 80%;
 }
